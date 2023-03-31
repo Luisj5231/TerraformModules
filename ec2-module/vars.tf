@@ -13,7 +13,7 @@ variable "subnetId" {
   description = "The VPC Subnet ID to launch in"
 }
 
-variable "vpc_security_group_id" {
+variable "vpc_sg_id" {
   type        = list(any)
   description = "A list of security group IDs to associate with"
 }
