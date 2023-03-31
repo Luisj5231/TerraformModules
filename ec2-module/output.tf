@@ -12,3 +12,8 @@ output "id_ec2_instance" {
   value = aws_instance.ec2_instance.id
   description = "Id of the created instance"
 }
+
+output "az_ec2_instance" {
+  value = aws_instance.ec2_instance.availability_zone
+  description = "AZ of the created instance"
+}
