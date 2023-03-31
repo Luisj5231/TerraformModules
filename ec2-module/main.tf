@@ -4,7 +4,7 @@ resource "aws_instance" "ec2_instance" {
   subnet_id                   = var.subnetId
   key_name                    = var.EC2keyName
   disable_api_termination     = false
-  vpc_security_group_ids      = var.vpc_security_group_id
+  vpc_security_group_ids      = var.vpc_sg_id
   associate_public_ip_address = var.publicIPAddress
   
 
